@@ -1,0 +1,59 @@
+來源：https://en.wikipedia.org/wiki/Apple_Inc.（CC BY-SA 4.0）
+
+# Apple Inc. — Company Overview
+
+## History
+
+Apple Computer was founded as a partnership on April 1, 1976, by Steve Jobs, Steve Wozniak, and Ronald Wayne in Los Altos, California. The company's first product was the Apple I, designed by Wozniak. Apple Computer, Inc. was incorporated in Cupertino, California on January 3, 1977, without Wayne, who had sold his share back to Jobs and Wozniak for $800. Mike Markkula invested $250,000 during incorporation.
+
+The Apple II, introduced April 16, 1977, became one of the first successful mass-produced personal microcomputers. On December 12, 1980, Apple became a public company through an IPO on Nasdaq. The Macintosh launched January 24, 1984. In 1985, following a power struggle with CEO John Sculley, Jobs resigned from Apple and founded NeXT. Steve Wozniak left active employment at Apple the same year.
+
+Apple acquired NeXT for $427 million in cash, stock, stock options, and assumed debt, completed February 7, 1997, bringing Jobs back to the company. Jobs was appointed interim CEO on September 16, 1997, and later permanent CEO. In August 1997, Jobs secured a $150 million investment from Microsoft. Apple introduced the iMac in 1998, the iPod in 2001, the iTunes Store in 2003, the iPhone in 2007, the App Store in 2008, and the iPad in 2010.
+
+Tim Cook became CEO on August 24, 2011, after Jobs resigned due to his health; Jobs died on October 5, 2011. Apple became the first publicly traded US company valued at over $1 trillion in 2018. On April 20, 2026, Apple announced that Tim Cook will step down as CEO on September 1, 2026, to be succeeded by John Ternus, Senior Vice President of Hardware Engineering. Cook is slated to become Executive Chairman of the Board.
+
+## Founders and Key Executives
+
+Founders: Steve Jobs, Steve Wozniak, and Ronald Wayne.
+
+Current leadership: Arthur Levinson (Chairman), Tim Cook (CEO, stepping down September 1, 2026), John Ternus (CEO-designate), Sabih Khan (Chief Operating Officer), Kevan Parekh (Chief Financial Officer), Craig Federighi (Senior Vice President of Software Engineering).
+
+Previous CEOs: John Sculley (1983–1993), Michael Spindler (1993–1996), Gil Amelio (1996–1997), Steve Jobs (1997–2011), Tim Cook (2011–2026).
+
+## Products
+
+Hardware: Apple I, Apple II, Macintosh/Mac line, Lisa, Newton MessagePad, PowerBook, iMac, MacBook Pro, MacBook Air, iPad, iPhone, iPod, Apple Watch, AirPods, AirTag, Apple TV, Apple Vision Pro, HomePod.
+
+Software and operating systems: Mac OS X / macOS, NeXTSTEP, iOS, iPadOS, visionOS, iLife suite (iMovie, iPhoto, GarageBand), iTunes, Final Cut Pro, Logic Pro, iBooks Author.
+
+Services: iTunes Store, App Store, Apple Store retail locations, Apple Music, Apple TV+, Apple Pay, Apple Pay Later, iCloud, Apple Arcade, Apple Card, CarPlay.
+
+## Competitors
+
+Microsoft (Windows, software), IBM and IBM PC compatibles, Commodore, Dell, Samsung (smartphones, patent litigation), HTC (smartphones, settled litigation), Sonos, Google (Google Home; also an AI partner as of 2026), Amazon (Amazon Echo), Meta Platforms, Tesla (custom silicon development), OpenAI (subject of a July 2026 lawsuit).
+
+## Acquisitions and Investments
+
+NeXT (1997, $427 million, brought NeXTSTEP OS and Steve Jobs back to Apple), Power Computing (1997, clone manufacturer), Beats Electronics (2014, $3 billion — the largest acquisition in Apple's history at the time), Shazam (2017, reportedly $400 million, approved by the European Union in September 2018), Pixelmator (November 2024), Q.ai (January 2026, an Israeli AI startup, estimated at nearly $2 billion — Apple's second-largest acquisition to date).
+
+Investment received: Microsoft invested $150 million in Apple in August 1997. In 2025 Apple announced a commitment to spend over $500 billion in the United States over four years, including a manufacturing facility in Houston and an advanced manufacturing academy in Detroit.
+
+## Suppliers and Partnerships
+
+Samsung Electro-Mechanics (M2 chip collaboration, 2022), LG Innotek (previous component collaboration), Google Gemini (AI-powered Siri partnership announced January 2026).
+
+Entertainment partnerships: Oprah Winfrey (multi-year content deal, 2018), Sesame Workshop, DHX Media and its subsidiary Peanuts Worldwide, A24.
+
+## Regulatory Bodies and Compliance
+
+US Department of Justice: brought discriminatory hiring allegations resolved with a $25 million settlement in November 2023; ongoing antitrust investigations as of 2025.
+
+European Union: approved the Shazam acquisition in September 2018; required Apple to comply with EU competition law from March 2024, enabling alternative app stores and payment methods.
+
+Legal settlements: $95 million settlement (December 2024) over unlawful Siri recordings; Samsung patent lawsuit resulted in $1.05 billion in damages (2012, later reduced on appeal); HTC settlement (November 2012) included a ten-year patent license agreement.
+
+In July 2026, Apple filed a lawsuit against OpenAI alleging misappropriation of trade secrets.
+
+## Market Position
+
+As of 2024, Apple is the largest manufacturing company by revenue, the fourth-largest PC vendor, the largest vendor of tablet computers, and the largest vendor of mobile phones. 2025 revenue was reported at US$416 billion with 166,000 employees.

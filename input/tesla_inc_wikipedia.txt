@@ -1,0 +1,55 @@
+來源：https://en.wikipedia.org/wiki/Tesla,_Inc.（CC BY-SA 4.0）
+
+# Tesla, Inc. — Company Overview
+
+## History
+
+Tesla was incorporated on July 1, 2003, by Martin Eberhard and Marc Tarpenning as Tesla Motors, Inc. The company's name honors inventor Nikola Tesla. In February 2004, Elon Musk led the Series A funding round with $6.5 million and became chairman and largest shareholder. A lawsuit settlement in September 2009 allows five individuals — Eberhard, Tarpenning, Ian Wright, Musk, and J.B. Straubel — to claim co-founder status.
+
+Production of the Roadster sports car began in 2008 within a former Chevrolet dealership in Menlo Park. In January 2010, Tesla received a $465 million government loan from the Department of Energy's Loan Program Office, which the company later repaid in full. The company purchased the NUMMI plant in Fremont, California from Toyota for $42 million in May 2010 and went public via IPO on June 29, 2010 on NASDAQ, raising $226 million.
+
+Production of the Model S luxury sedan began in June 2012. In November 2016, Tesla acquired SolarCity for $2.6 billion in an all-stock transaction. The company changed its legal name from Tesla Motors to Tesla, Inc. in February 2017. The Model 3 entered production in 2017 as the company's first mass-market vehicle. Model Y deliveries commenced in March 2020.
+
+Tesla became profitable for four consecutive quarters from July 2019 to June 2020, making it eligible for S&P 500 inclusion, and was added to the index on December 21, 2020. It became the sixth U.S. company reaching $1 trillion market capitalization in October 2021.
+
+In January 2026, Tesla lost its position as the world's largest battery electric vehicle manufacturer to Chinese competitor BYD after full-year 2025 deliveries were reported (1,636,129 BEVs versus BYD's 2,256,714).
+
+## Founders and Key Executives
+
+Founders: Martin Eberhard (first CEO), Marc Tarpenning (CFO and VP of Electrical Engineering), Ian Wright, J.B. Straubel (Chief Technical Officer, joined May 2004), and Elon Musk.
+
+Current leadership: Elon Musk serves as CEO (since October 2008) and holds approximately 13% ownership. Robyn Denholm serves as board chair. Jon McNeill is Tesla's president of global sales, delivery and service.
+
+Historical CEOs: Michael Marks (interim CEO, August 2007), Ze'ev Drori (CEO and president, December 2007) before Musk assumed the role in October 2008.
+
+## Subsidiaries
+
+Tesla Energy is the company's clean energy subsidiary, created through the merger of Tesla's battery energy storage division with the acquired SolarCity operations. Tesla Automation is another listed subsidiary. The company also operates Tesla Electric, a virtual power company in Texas.
+
+## Products
+
+Vehicles: Model 3 (mid-size car, deliveries began July 2017, world's best-selling electric car 2018–2021), Model Y (mid-size crossover SUV, deliveries began March 2020, world's best-selling car overall in Q1 2023), Tesla Semi (Class 8 semi-truck, deliveries to PepsiCo began December 2022), Cybertruck (full-sized pickup truck, deliveries began November 2023), Cybercab (two-passenger self-driving car under development), Roadster (first-generation, produced 2008–2012; second-generation delayed to 2027), Model S (full-size sedan, deliveries began June 2012), Model X (mid-size luxury crossover SUV with falcon-wing doors, deliveries began September 2015), Tesla Robovan (electric autonomous van announced October 2024).
+
+Energy products: solar panels, Tesla Solar Roof, Tesla Solar Inverter, Powerwall home energy storage, Megapack large-scale energy storage.
+
+## Services
+
+Supercharger network (introduced September 2012, approximately 7,900 stations globally as of November 2025), Destination Charger network, Tesla Insurance (operating since 2017), Robotaxi (launched 2025 in Austin, Texas).
+
+## Competitors
+
+BYD Company surpassed Tesla as the world's largest battery electric vehicle manufacturer in January 2026. The Toyota Corolla is referenced as a sales comparison point that the Model Y outsold in 2023.
+
+## Suppliers and Partnerships
+
+Battery cell suppliers: CATL, LG Energy Solution, and Panasonic (which co-locates production inside Gigafactory Nevada).
+
+Strategic partnerships: Tata Electronics (semiconductor supply deal, April 2024). In March 2026, Tesla and xAI announced a joint project pairing xAI's Grok large language model with a Tesla-developed AI agent. SpaceX, Tesla, and xAI announced Terafab, a joint semiconductor fabrication project, on March 21, 2026.
+
+## Investments
+
+Tesla acquired SolarCity for $2.6 billion in November 2016. In early 2021, Tesla invested $1.5 billion in bitcoin, later selling approximately 75% of its holdings by July 2022.
+
+## Regulatory Bodies and Regulations
+
+The U.S. Department of Energy's Loan Program Office provided the $465 million loan for clean energy manufacturing. The Securities and Exchange Commission brought a securities fraud charge against Musk related to his August 2018 "taking Tesla private" announcement, resulting in a $20 million fine. A Delaware court rejected Musk's $56 billion pay package in December 2024.
