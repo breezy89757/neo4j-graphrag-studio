@@ -12,6 +12,7 @@ from pathlib import Path
 import streamlit as st
 from streamlit_agraph import Config, Edge, Node, agraph
 
+import benchmark
 import common
 from Ingest import ensure_vector_index, ingest_files
 from neo4j_graphrag.experimental.components.schema import (
@@ -307,6 +308,71 @@ def render_chat_tab():
                 st.code(st.session_state["last_cypher"], language="cypher")
 
 
+def render_benchmark_tab():
+    st.subheader("同一份文件 x 同一個問題：三種做法對照")
+    st.caption(
+        "文件需先在「Schema 設定與建圖」分頁完成建圖，這裡才撈得到向量索引與圖譜資料。"
+    )
+
+    try:
+        existing_files = common.find_input_files(common.INPUT_DIR)
+    except FileNotFoundError as e:
+        st.warning(str(e))
+        return
+
+    file_path = st.selectbox("選擇已建圖的文件", existing_files, key="benchmark_file")
+    top_k = st.slider(
+        "Top-K（向量檢索片段數，GraphRAG 與純向量 RAG 共用）",
+        min_value=1, max_value=10, value=5, key="benchmark_top_k",
+    )
+    question = st.text_input("輸入問題", key="benchmark_question")
+
+    if st.button("執行基準測試", type="primary", disabled=not question):
+        driver = cached_driver()
+        llm = cached_chat_llm()
+        embedder = cached_embedder()
+
+        with st.spinner("三種做法都在跑，請稍候..."):
+            st.session_state["benchmark_results"] = {
+                "question": question,
+                "file_path": file_path,
+                "graphrag": benchmark.ask_graphrag(question, driver, llm, embedder, top_k=top_k),
+                "vector_rag": benchmark.ask_vector_rag(question, driver, llm, embedder, top_k=top_k),
+                "full_document": benchmark.ask_full_document(question, file_path, llm),
+            }
+
+    results = st.session_state.get("benchmark_results")
+    if not results:
+        st.info("選好文件、輸入問題後按下「執行基準測試」，這裡會並排顯示三種做法的回答。")
+        return
+
+    st.divider()
+    st.caption(f"問題：{results['question']}　|　文件：`{results['file_path']}`")
+
+    columns = st.columns(3)
+    panels = [
+        (columns[0], "🕸️ Neo4j GraphRAG（現有架構）", "graphrag"),
+        (columns[1], "🧮 純向量 RAG", "vector_rag"),
+        (columns[2], "📄 整份文件丟 LLM", "full_document"),
+    ]
+    for col, label, key in panels:
+        with col:
+            st.markdown(f"**{label}**")
+            result = results[key]
+            m1, m2 = st.columns(2)
+            m1.metric("耗時", f"{result['elapsed_s']:.1f} s")
+            m2.metric("餵給 LLM 的字數", f"{result['context_chars']:,}")
+            if result.get("truncated"):
+                st.warning(f"文件超過 {benchmark.MAX_FULL_DOC_CHARS:,} 字，已截斷。")
+            st.markdown(result["answer"])
+            with st.expander(f"查看餵給 LLM 的內容（共 {len(result['context_items'])} 段）"):
+                for i, chunk in enumerate(result["context_items"], start=1):
+                    st.text_area(
+                        f"片段 {i}", chunk, height=150,
+                        key=f"benchmark_{key}_chunk_{i}", disabled=True,
+                    )
+
+
 def render_sidebar():
     with st.sidebar:
         st.header("圖譜統計")
@@ -323,11 +389,15 @@ def render_sidebar():
 
 def main():
     render_sidebar()
-    tab_chat, tab_schema = st.tabs(["💬 問答", "🗂️ Schema 設定與建圖"])
+    tab_chat, tab_schema, tab_benchmark = st.tabs(
+        ["💬 問答", "🗂️ Schema 設定與建圖", "🧪 基準測試"]
+    )
     with tab_chat:
         render_chat_tab()
     with tab_schema:
         render_schema_tab()
+    with tab_benchmark:
+        render_benchmark_tab()
 
 
 if __name__ == "__main__":

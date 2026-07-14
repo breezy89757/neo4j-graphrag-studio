@@ -11,6 +11,7 @@ An interactive Streamlit application built on top of [`neo4j-graphrag`](https://
 - **Answer-scoped subgraph visualization** — the graph panel only shows entities/relationships that are actually referenced in the answer, not the entire local neighborhood of the retrieved chunk (which can be large and noisy).
 - **Cypher verification** — every answer comes with a ready-to-paste Cypher query so you can confirm the visualized subgraph against Neo4j Browser directly.
 - **FREE mode** — skip schema guidance entirely and let the LLM extract whatever it finds, for quick exploration.
+- **Three-way benchmark** — ask the same question against the same document and compare, side by side: the current GraphRAG pipeline, plain vector RAG (chunk embeddings only, no graph traversal), and stuffing the whole document into the prompt with no retrieval at all. Shows latency and how many characters were actually sent to the LLM for each approach.
 
 ## Screenshots
 
@@ -32,6 +33,10 @@ Built from the sample Apple document included in `input/`.
 
 ![Acquisition subgraph](docs/screenshots/acquisition-subgraph.png)
 
+**Benchmark tab** — same document, same question, three approaches side by side:
+
+![Benchmark comparison](docs/screenshots/benchmark-comparison.png)
+
 ## Architecture
 
 | File | Responsibility |
@@ -39,7 +44,8 @@ Built from the sample Apple document included in `input/`.
 | `common.py` | Neo4j driver + LLM/embedding client construction, shared config |
 | `Ingest.py` | Document → knowledge graph pipeline (`SimpleKGPipeline`) |
 | `query.py` | GraphRAG retrieval, answer-scoped subgraph filtering, Cypher generation |
-| `app.py` | Streamlit UI (schema tab + chat tab) |
+| `benchmark.py` | GraphRAG vs. plain vector RAG vs. full-document-in-prompt, for the benchmark tab |
+| `app.py` | Streamlit UI (schema tab, chat tab, benchmark tab) |
 
 ## Setup
 
